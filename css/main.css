@@ -1,0 +1,37 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  background-color: #64c864;
+  display: flexbox;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+  height: 50px;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  border-radius: 15px;
+  width: 150px;
+  transition: width 0.3s ease-in-out;
+}
+
+input:hover {
+  width: 200px;
+}
+
+/*# sourceMappingURL=main.css.map */
